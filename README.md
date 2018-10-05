@@ -97,9 +97,7 @@ curl -X POST \
   -H 'Authorization: Bearer [APIKEY]' \
   -H 'Content-Type: application/json' \
   -H 'user-id: some-user-id' \
-  -d '{
-	
-}'
+  -d 
 ```
 
 Depending on how you've implemented your chatbot reactions and interactions the answer may change but will always be compliant to the previous reply fields. If your user has instead any mean to click on chat buttons you've implemented or on Carousel contents you must forward to Xenioo the command payload as follows:
