@@ -36,12 +36,20 @@ Since this is a global configuration, you don't need to specify the current user
     "Avatar": null,
     "Version": 96,
     "DefaultBehaviour": {
-        "Name": "New Bot Behaviour",
-        "APIToken": "[Behaviour API Token]"
+        "Name": "My Top Behaviour",
+        "APIKey": "[Behaviour API Token]"
     }
 }
 ```
 
+|field|type|description|
+|-|-|-|
+|Name|string|The name of your chatbot|
+|EnableTypeSpeed|boolean|Indicates if the chatbot is configured to use typespeed simulation. If so, TypeDelay will be valued for actions where necessary|
+|WordsPerMinute|number|The number of words per minute your chatbot can write. This affects the TypeDelay parameter value|
+|Avatar|string|The url of the avatar specified under your chatbot general settings|
+|Version|number|The version number of your chatbot. This number is automatically increased by Xenioo|
+|DefaultBehaviour|object|The name and the API Key associated with your 
 
 
 ## Initiating Chat
