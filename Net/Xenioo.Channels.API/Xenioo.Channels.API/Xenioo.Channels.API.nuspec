@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <description>Xenioo is a higly advanced chatbot designer that can be published to Facebook, WhatsApp, Telegram, Slack and as a Web plugin. The Xenioo API Channel allows any application to integrate and interact with a Xenioo chatbot.</description>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://www.xenioo.com/terms-of-service/</licenseUrl>
+    <projectUrl>https://www.xenioo.com/</projectUrl>
+    <iconUrl>https://app.xenioo.com/assets/images/badge64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018 Matelab Srl</copyright>
+    <tags>chatbot api conversation chat</tags>
+  </metadata>
+</package>

@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Xenioo.Channels.API")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle( "Xenioo API Connection" )]
+[assembly: AssemblyDescription( "The Xenioo API Channel allows any application capable of making simple RESTful https calls to integrate and interact with a Xenioo chatbot." )]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany( "Matelab Srl" )]
 [assembly: AssemblyProduct("Xenioo.Channels.API")]
