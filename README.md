@@ -73,9 +73,10 @@ The root reply fields have the follwing format:
 |UserId|string|The user-id of the current user chatting with you. If you did not create it yourself store it and re-use it for subsequent calls|
 |Creation|datetime|The Xenioo reply creation date and time |
 |EnableUserChat|boolean|This may change depending on your chatbot design. You should comply to the chabot designer choices by either allowing or forbidding an open reply from the user|
-|ControlType|number|The control state of the chatbot. 0-Xenioo, 1-Operator Requested, 2-Operator Taken Over
+|ControlType|number|The control state of the chatbot. 0-Xenioo, 1-Operator Requested, 2-Operator Taken Over|
 
 Each part may contain different fields, depending on the type. All general fields are as follows:
+
 |field|type|description|
 |-|-|-|
 |Type|number|The type of action that should be exectued on your client. See below for a list of all actions|
