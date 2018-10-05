@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>$version$</version>
+    <version>1.0.1</version>
     <title>$title$</title>
-    <description>Xenioo is a higly advanced chatbot designer that can be published to Facebook, WhatsApp, Telegram, Slack and as a Web plugin. The Xenioo API Channel allows any application to integrate and interact with a Xenioo chatbot.</description>
+    <description>Xenioo is a highly advanced chatbot designer that can be published to Facebook, WhatsApp, Telegram, Slack and as a Web plugin. The Xenioo API Channel allows any application to integrate and interact with a Xenioo chatbot.</description>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>https://www.xenioo.com/terms-of-service/</licenseUrl>
