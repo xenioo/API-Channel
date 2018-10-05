@@ -98,7 +98,7 @@ curl -X POST \
   -H 'Content-Type: application/json' \
   -H 'user-id: some-user-id' \
   -d '{
-	"Text":"hello there!"
+	
 }'
 ```
 
