@@ -35,7 +35,7 @@ Since this is a global configuration, you don't need to specify the current user
     "Name": "My Awesome Bot",
     "EnableTypeSpeed": true,
     "WordsPerMinute": 800,
-    "Avatar": null,
+    "Avatar": "https://app.xenioo.com/api/assets/8e23ff8b3ee7_60f1113c-8e6e-46ce-bf19-a53da5ff4ed0.jpg",
     "Version": 96,
     "DefaultBehaviour": {
         "Name": "My Top Behaviour",
