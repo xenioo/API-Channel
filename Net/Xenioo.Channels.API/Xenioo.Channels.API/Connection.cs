@@ -90,6 +90,12 @@ namespace Xenioo.Channels.API {
 		}
 
 		public BotReply Initialize( ConnectionInitializationModeEnum mode, List<string> tags, List<Variable> variables ) {
+
+			/*
+			 Initializes the conversation, sending the starting command.
+			 Check https://github.com/xenioo/API-Channel for a list of starting commands.
+			 */
+
 			var ret = REST.Post<BotChatRequest,BotReply>( API_ENDPOINT_URL + "/chat",
 														  new BotChatRequest(){
 																Command = mode.ToString().ToUpper()
