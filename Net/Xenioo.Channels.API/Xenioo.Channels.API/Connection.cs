@@ -25,10 +25,7 @@ SOFTWARE.
 ********************************************************/
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using Xenioo.Channels.API.Model;
 using Xenioo.Channels.API.Utils;
 
@@ -112,7 +109,7 @@ namespace Xenioo.Channels.API {
 
 		#endregion
 
-		#region props
+		#region Properties
 
 		public int PollingInterval {
 			get;
@@ -214,7 +211,7 @@ namespace Xenioo.Channels.API {
 
 		#endregion
 
-		#region Global
+		#region General
 
 		private Dictionary<string, string> GetBaseHeaders( ) {
 			return GetBaseHeaders( null, null );
