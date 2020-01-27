@@ -5,12 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Xenioo.Channels.API;
 
-//https://webhook.site/#/b300d579-5df3-4af7-ac9a-978fb1c85d9d
-
 namespace TesterConsole {
 	class Program {
 
-		private const string XENIOO_API_KEY = "WAtiJ8fBsHK0";
+		private const string XENIOO_API_KEY = "YOUR CHATBOT API KEY";
 		
 
 		static void Main( string[] args ) {
